@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --white--color: #fff;
+  --header--height: 77px;
+  --text--color: #727475;
+  --btn--color: #f3a46b;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+.btn {
+  background-color: var(--btn--color);
+  border-radius: 30px;
+  color: var(--white--color);
+  padding: 5px 20px;
+  font-size: 1.6rem;
+  text-align: center;
+  min-width: 140px;
+}
+/* Responsive */
+.grid {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
