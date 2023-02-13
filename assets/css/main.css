@@ -5,11 +5,12 @@
   position: sticky;
   top: -5px;
   padding-top: 5px;
+  background-color: var(--white--color);
 }
 .header__content {
   display: flex;
   align-items: center;
-  padding: 15px;
+  padding: 15px 0;
 }
 .header__logo {
 }
@@ -39,4 +40,95 @@
 }
 .header__action-btn {
   text-decoration: none;
+}
+/* Hero */
+.hero__content {
+  height: 800px;
+}
+.hero__content-slide {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/city-tours/wp-content/uploads/sites/5/2018/12/slide-02.jpg);
+}
+.tp__parallax {
+  position: absolute;
+  display: block;
+  transform: matrix(1, 0, 0, 1, 0, -12.2);
+  z-index: 2;
+}
+.tp__parallax--wrap {
+  position: absolute;
+  display: block;
+
+  overflow: visible;
+}
+.tp__parallax-wrap--text {
+  z-index: 5;
+  white-space: nowrap;
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0px;
+  background-color: rgb(85, 85, 85);
+  text-align: inherit;
+  border-width: 0px;
+  margin: 0px;
+  padding: 5px 20px 10px;
+  min-height: 0px;
+  min-width: 0px;
+  max-height: none;
+  max-width: none;
+  opacity: 1;
+  transform: matrix3d(
+    0.999391,
+    -0.0348995,
+    0,
+    0,
+    0.0348995,
+    0.999391,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+  );
+}
+.tp__parallax-wrap--text span {
+  color: rgb(243, 164, 107);
+  text-align: inherit;
+  line-height: 45px;
+  border-width: 0px;
+  margin: 0px;
+  padding: 0px;
+  letter-spacing: 0px;
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.tp__parallax-top {
+  left: 670px;
+  top: 170px;
+}
+.tp__parallax-bottom {
+  left: 688px;
+  top: 232px;
+}
+.tp__parallax-top--wrap {
+  min-height: 60px;
+  min-width: 470px;
+}
+.tp__parallax-bottom--wrap {
+  min-height: 60px;
+  min-width: 431px;
 }
