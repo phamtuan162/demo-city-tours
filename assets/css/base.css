@@ -55,3 +55,8 @@ body {
   padding-left: 0;
   padding-right: 0;
 }
+.grid__column-10 {
+  width: 83.3334%;
+  padding-left: 0;
+  padding-right: 0;
+}
