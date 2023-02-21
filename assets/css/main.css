@@ -544,6 +544,7 @@
 }
 .sale__content {
   margin-top: 60px;
+  display: flex;
 }
 .sale__content-left {
   padding: 40px;
@@ -551,10 +552,12 @@
   background-color: #f3a46b !important;
 }
 .sale__content-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .sale__content-left--wrapper {
   text-align: center;
-  margin: 50px 0;
 }
 .sale__content-left--desc {
   color: var(--white--color);
@@ -611,6 +614,7 @@
   font-weight: 400;
   letter-spacing: 2px;
   font-size: 1.4rem;
+  line-height: 2.5rem;
   margin-bottom: 20px;
 }
 .sale__content-left--btn-action {
@@ -622,4 +626,136 @@
   color: var(--btn--color);
   display: inline-flex;
   margin: 0 auto;
+}
+.sale__content-right {
+  display: flex;
+  padding-left: 15px;
+}
+.sale__travel-item {
+  width: 50%;
+  padding: 15px;
+}
+.sale__travel-item--wrapper {
+  width: 100%;
+  border: 1px solid #f1f1f1;
+}
+.sale__travel-img {
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 250px;
+}
+.sale__travel-icon {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  z-index: 99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  right: 20px;
+  bottom: -25px;
+}
+.sale__travel-icon img {
+  width: 26px;
+  height: 26px;
+}
+.sale__travel-content {
+  padding: 30px;
+}
+.sale__travel-heading {
+  color: #555555;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2rem;
+  letter-spacing: 0;
+  cursor: pointer;
+}
+.sale__travel-adress {
+  margin-top: 10px;
+  color: #9a9a9a;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  cursor: pointer;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+.sale__travel-adress-icon {
+  width: 14px;
+  height: 14px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.sale__travel-adress--name {
+}
+.sale__travel-section {
+  display: flex;
+  padding: 15px 0 10px;
+  border-bottom: 1px solid #f1f1f1;
+  border-top: 1px solid #f1f1f1;
+  align-items: center;
+}
+.sale__travel-section--content {
+  width: 50%;
+}
+.sale__travel-section--name {
+  color: #555555;
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+  letter-spacing: 2px;
+  font-weight: 400;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.sale__travel-section--bottom {
+  line-height: 2.7rem;
+  letter-spacing: 1px;
+  font-size: 1.4rem;
+}
+.sale__travel-section--bottom a {
+  font-size: 1rem;
+  line-height: 1.4rem;
+  background-color: #ffd205;
+  margin-left: 5px;
+  border-radius: 30px;
+  padding: 2px 8px;
+  text-decoration: none;
+  color: var(--white--color);
+  font-weight: 400;
+}
+.sale__travel-section--price {
+  width: 50%;
+  text-align: right;
+  cursor: pointer;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  color: #555555;
+  font-weight: 400;
+}
+.sale__travel-section--price--old {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  color: var(--desc--color);
+  text-decoration: line-through;
+}
+.sale__travel-section--desc {
+  margin: 20px 0;
+  font-size: 1.4rem;
+  line-height: 2.7rem;
+  text-transform: none;
+  font-weight: 400;
+  color: var(--desc--color);
+  letter-spacing: 1px;
+}
+.sale__travel-btn--action {
+  min-width: 0;
+  font-size: 1.4rem;
+  line-height: 2.7rem;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 20px;
 }
