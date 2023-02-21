@@ -32,6 +32,7 @@ body {
   text-align: center;
   min-width: 140px;
   line-height: 1.6rem;
+  cursor: pointer;
 }
 /* Responsive */
 .grid {
