@@ -59,6 +59,25 @@
   background-repeat: no-repeat;
   background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/city-tours/wp-content/uploads/sites/5/2018/12/slide-02.jpg);
 }
+.hero__icon-left {
+  position: absolute;
+  top: calc(50%);
+  transform: matrix(1, 0, 0, 1, 30, 25);
+  left: 0px;
+  z-index: 11;
+}
+.hero__icon-act {
+  cursor: pointer;
+  font-size: 5rem;
+  color: var(--white--color);
+}
+.hero__icon-right {
+  position: absolute;
+  top: calc(50%);
+  transform: matrix(1, 0, 0, 1, -30, 25);
+  right: 0px;
+  z-index: 11;
+}
 .tp__parallax {
   position: absolute;
   display: block;
@@ -646,6 +665,19 @@
   background-size: cover;
   width: 100%;
   height: 250px;
+}
+.sale__travel-item--label {
+  border-radius: 30px;
+  padding: 5px 12px 4px;
+  position: absolute;
+  z-index: 11;
+  background-color: #555555;
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+  right: 20px;
+  top: 20px;
+  color: var(--white--color);
+  text-decoration: none;
 }
 .sale__travel-icon {
   position: absolute;
