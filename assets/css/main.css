@@ -281,7 +281,7 @@
 }
 .sticky__percentage {
   position: absolute;
-  top: 50%;
+  bottom: 2px;
   left: -20px;
   display: flex;
   justify-content: center;
